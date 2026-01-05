@@ -1,0 +1,34 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000207;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.live-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.live-gif {
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+/* optional states if you want class-based scaling */
+.live-gif.shrunk {
+  transform: scale(0.8);
+}
+
+.live-gif.normal {
+  transform: scale(1);
+}
+
+.live-gif.expanded {
+  transform: scale(1.2);
+}
