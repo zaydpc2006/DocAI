@@ -1,0 +1,7 @@
+// after cloning 
+
+npm install 
+npm install express cors fetch dotenv
+npm run dev
+cd backend 
+node server.js
