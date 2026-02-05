@@ -4,12 +4,15 @@ import Chat from './Chat';
 import Live from "./Live";
 import { useState } from 'react'
 import './App.css'
+import LoginLayout from "./LoginLayout";
+
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Chat />} />
+        <Route path="/" element={<LoginLayout />} />
         <Route path="/live" element={<Live />} />
+        <Route path="/chat" element={<Chat />} />
       </Routes>
     </Router>
   );
