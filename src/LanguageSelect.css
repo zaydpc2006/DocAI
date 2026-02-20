@@ -1,0 +1,123 @@
+* {
+    
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .lang-container {
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at top, #0e1a2b, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Back button */
+  .back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #0b1d33;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Card */
+  .lang-card {
+    background: #050b16;
+    padding: 40px;
+    border-radius: 16px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0, 255, 255, 0.1);
+  }
+  
+  /* Logo */
+  .logo {
+    position: relative;
+    margin-bottom: 25px;
+    height: 80px;
+  }
+  
+
+  .logo-img {
+    width: 90px;        
+    height: auto;
+    object-fit: contain;
+  }
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #00e5ff;
+  }
+  
+  .big {
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .mid {
+    width: 25px;
+    height: 25px;
+    right: 80px;
+    top: 10px;
+  }
+  
+  .small {
+    width: 15px;
+    height: 15px;
+    right: 60px;
+    top: 35px;
+  }
+  
+  .logo-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #00e5ff;
+    font-size: 20px;
+  }
+  
+  /* Title */
+  h3 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  /* Language button */
+  .lang-btn {
+    width: 100%;
+    background: #0b1d33;
+    border: 1px solid #1f3b5c;
+    color: white;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .lang-btn:hover {
+    background: #00e5ff;
+    color: #000;
+  }
+  
+  /* Flag */
+  .flag {
+    width: 28px;
+    height: 18px;
+    object-fit: cover;
+    border-radius: 3px;
+  }
+  

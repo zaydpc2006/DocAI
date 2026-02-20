@@ -59,7 +59,7 @@ export default function LoginComponent() {
               />
             </div>
 
-            <Link to="/chat">
+            <Link to="/lang">
             <button type="submit" className="login-button">
               Login
             </button>
